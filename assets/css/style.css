@@ -16,6 +16,8 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   --fifth-color: cornflowerblue;
+  --eight-color: hsla(251, 70%, 55%, 1);
+  --ninth-color: black;
 }
 .dark_mode {
   --primary-color: #fff;
@@ -24,10 +26,12 @@
   --fourth-color: salmon;
   --fifth-color: #000;
   --seventh-color: #af99f4;
+  --eight-color: black;
+  --ninth-color: hsla(251, 70%, 55%, 1);
 }
 * {
   margin: 0;
-  padding: 0;
+  padding: 0;ama
 }
 html {
   min-width: 100%;
@@ -92,8 +96,8 @@ h1 {
   width: 100%;
 } */
 .digitalClock2 {
-  border-color: 30px solid black;
-  background-color: hsla(251, 70%, 55%, 1);
+  border-color: 30px solid var(--ninth-color);
+  background-color: var(--eight-color);
   border-radius: 5px;
   height: 10rem;
   width: 80%;
@@ -105,7 +109,7 @@ h1 {
   align-content: center;
   flex-wrap: wrap;
   padding: 1rem;
-  border: 2.7rem solid black;
+  border: 2.7rem solid var(--ninth-color);
   text-align: center;
   font-size: 2rem;
 }
